@@ -99,3 +99,13 @@ let valor = 10;
 let min = 5;
 let max = 15;
 console.log(valor >= min && valor <= max); //true
+
+// precedencia de operadores
+// 1. parentesis
+// 2. exponentes
+// 3. multiplicacion y division
+// 4. suma y resta
+// 5. asignaciones
+// se revisa de izq a der
+console.log(5 + 5 * 2 - 3 / 2); //13.5
+
